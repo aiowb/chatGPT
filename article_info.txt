@@ -1,0 +1,16 @@
+Marke: erima
+Produktgruppe: Apparel
+Warengruppe: Fussball
+Artikelgruppe: Sporthose lang
+Farbe: grau
+Material: Polyester
+Geschlecht: Herren
+Produktart: Hose
+Einsatzbereich: Fussball
+Herstellernr: 1102002
+EANs: 4043523972054 , 4043523972061 , 4043523972078 , 4043523972085 , 4043523972030 , 4043523972047
+
+Kordelzugbund: Der Kordelzugbund ermöglicht durch seine individuell einstellbare Größe einen sicheren und rutschfesten Sitz.
+Reißverschlusstaschen: Die Taschen sind mit einem Reißverschluss versehen, der eine sichere Aufbewahrung gewährleistet.
+schmale Passform: Der enge Schnitt ermöglicht eine feste und rutschfreie Passform, die die Muskeln wirksam unterstützt.
+Reißverschluss an den Beinenden: Die Reißverschlüsse an den Beinen machen es dir leicht, die Hose an- und auszuziehen.

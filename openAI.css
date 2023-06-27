@@ -1,0 +1,74 @@
+body {
+  font-family: "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  font-size: 1rem;
+  padding: 10px;
+  width: 80%;
+  max-width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+input[type="submit"] {
+  font-size: 1rem;
+  padding: 10px;
+  width: 80%;
+  max-width: 600px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+input[type="submit"]:hover {
+  background-color: #666;
+}
+
+#chat_container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#chat_messages {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#chat_messages .user_message,
+#chat_messages .openai_message {
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  line-height: 1.5
+}

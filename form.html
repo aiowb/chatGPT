@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../Impressum_files/css/form-style.css" />
+    <title>Produktbeschreibungs-Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            margin-bottom: 5px;
+        }
+        p {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="cms_header" style="width:500px">Produktbeschreibungs-Generator</div>
+    <div class="form-group cms_formular cms_content_bg" style="width:500px">
+        <span>KI-Tool zur Erstellung von Produktbeschreibungen.</span><br><br>
+        <button id="generateButton" class="cms_buttons">Generieren</button>
+        <div id="resultContainer"></div>
+    </div>
+    <script src="chatGPT.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+Marke: erima
+Produktgruppe: Apparel
+Warengruppe: Fussball
+Artikelgruppe: Sporthose lang
+Farbe: grau
+Material: Polyester
+Geschlecht: Herren
+Produktart: Hose
+Einsatzbereich: Fussball
