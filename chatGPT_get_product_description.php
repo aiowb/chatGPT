@@ -7,29 +7,14 @@ function func_chatGPT_get_product_description($product_param_keys)
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
 
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "parceldealz";
-
-    $conn = mysqli_connect($servername, $username, $password, $dbname);
+	// Datenbank Verbindung
 
     if (!$conn)
     {
         die("Verbindung zur Datenbank fehlgeschlagen: " . mysqli_connect_error());
     }
 
-	$sql = "SELECT t1.titel, t1.beschreibung, t1.hersteller_nr, t2.ean, t1.groessenbezeichnung, t4.artikelart, t1.groessenbezeichnung, t5.verwendung
-			FROM s_artikel AS t1
-			JOIN s_groessen_zuweisung AS t2 ON t1.id_artikel = t2.id_artikel
-			JOIN s_zuweisung AS t3 ON t1.id_artikel = t3.id_artikel
-			JOIN s_artikelart AS t4 ON t3.id_artikelart = t4.id_artikelart
-			JOIN s_verwendung AS t5 ON t3.id_verwendung = t5.id_verwendung
-			WHERE anzahl = 1
-			AND ean is true
-			LIMIT 2"; //AND beschreibung is Null
-	
-    $result = mysqli_query($conn, $sql);
+	// Datenbank abfrage..
 
     if (!$result)
     {
@@ -85,7 +70,7 @@ function func_chatGPT_get_product_description($product_param_keys)
 		   "max_tokens": 200
 		 }',
             CURLOPT_HTTPHEADER => array(
-                'Authorization: Bearer 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',
+                'Authorization: Bearer // Hier API-Key einfügen',
                 'Content-Type: application/json',
             ) ,
         ));
